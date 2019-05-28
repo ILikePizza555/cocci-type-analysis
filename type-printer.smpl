@@ -10,4 +10,4 @@ t << typefinder.T;
 p << typefinder.P;
 @@
 
-print(t, p)
+print("type", t, p)
