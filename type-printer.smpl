@@ -1,0 +1,13 @@
+@typefinder@
+type T;
+position P;
+@@
+
+T@P
+
+@script:python printer@
+t << typefinder.T;
+p << typefinder.P;
+@@
+
+print(t, p)
